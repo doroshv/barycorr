@@ -7,7 +7,7 @@ from tdb2tdt import tdb2tdt
 # https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/
 # here I use the DE421 file
 
-kernel = SPK.open('/Users/doroshv/Dropbox/astro.repo/de421.bsp')
+kernel = SPK.open('de421.bsp')
 
 c = 299792.458 # km/s  (kilometers per second)
 
